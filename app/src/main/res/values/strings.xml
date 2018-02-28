@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">A2100984638</string>
+
+    <string name="lblUserId">User ID:</string>
+    <string name="lblPassword">Password:</string>
+    <string name="btnEnter">Enter</string>
+
+    <string name="lblSigninAs">Sign in as: </string>
+    <string name="btnLogout">Logout</string>
+    <string name="btnSubmit">Submit</string>
+
+    <string name="lblMenu">Menu</string>
+    <string name="btnNewPatient">New Patient</string>
+    <string name="btnSearchPatient">Search Patient</string>
+
+    <string name="lblNewPatient">New Patient</string>
+    <string name="txtDescNewPatient">Input new patient profile</string>
+    <string name="lblFirstName">First Name:</string>
+    <string name="lblLastName">Last Name:</string>
+    <string name="lblDepartment">Department:</string>
+    <string name="lblDoctor">Doctor:</string>
+    <string name="lblRoom">Room:</string>
+
+    <string name="lblSearchPatient">Search Patient</string>
+    <string name="txtDescSearchPatient">Input patient ID to search</string>
+    <string name="lblPatientId">Patient ID:</string>
+    <string name="btnSearch">Search</string>
+
+    <string name="lblDashboard">Dashboard</string>
+    <string name="lblPatientName">Patient Name: </string>
+    <string name="btnPaitentInfo">Patient Information</string>
+    <string name="btnViewTestData">View Test Data</string>
+    <string name="btnInputTestData">Input Test Data</string>
+    <string name="btnBackToMenu">Back To Menu</string>
+
+    <string name="lblPatientInfo">Patient Information</string>
+
+    <string name="lblViewTestData">Test Data</string>
+    <string name="lblTestId">Test ID: </string>
+    <string name="lblBT">Body Temperature/BT (C): </string>
+    <string name="lblBPH">Blood Pressure High/BPH (mmHg): </string>
+    <string name="lblBPL">Blood Pressure Low/BPL (mmHg): </string>
+    <string name="lblHR">Heart Rate/HR (bpm): </string>
+    <string name="lblRR">Respiratory Rate/RR (/min): </string>
+    <string name="lblUrine">Urine (mL/day): </string>
+    <string name="lblTime">Tested time: </string>
+
+    <string name="lblInputTestData">Input Test Data</string>
+    <string name="lblTester">Tester: </string>
+
+    <string name="lblSearchTestData">Search Test Data</string>
+    <string name="txtDescSearchTest">Input test ID to search</string>
+</resources>

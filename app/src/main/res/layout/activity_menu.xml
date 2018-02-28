@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/lblSignInAs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lblSigninAs"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/colorMain" />
+
+        <TextView
+            android:id="@+id/txtUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/lblSignInAs"
+            android:text="User name"
+            android:textColor="@color/colorMain" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/lblMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:textSize="30dp"
+            android:textColor="@color/colorMain"
+            android:text="@string/lblMenu" />
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:background="@color/colorMain"
+            android:textColor="@color/colorWhite"
+            android:text="@string/btnLogout"
+            android:layout_alignParentRight="true"
+            android:onClick="onClickLogout"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/patient" />
+
+    <Button
+        android:id="@+id/btnNewPatient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorMain"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="10dp"
+        android:text="@string/btnNewPatient"
+        android:onClick="onClickNewPatient"/>
+
+    <Button
+        android:id="@+id/btnSearchPatient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorMain"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="10dp"
+        android:text="@string/btnSearchPatient"
+        android:onClick="onClickSearchPatient"/>
+</LinearLayout>
